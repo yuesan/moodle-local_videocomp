@@ -1,8 +1,12 @@
 # リソース(動画)進捗拡張 #
 
-TODO Describe the plugin shortly here.
+Moodleのリソース(mod_resource)で動画ファイル再生時、動画を全て再生した時に「活動完了」とするようにする拡張プラグイン
 
-TODO Provide more detailed description here.
+Moodle標準の仕様では、リソース上の動画ファイルを開いた瞬間に「活動完了」になってしまいますが、このプラグインとmod_resourceのコード改造により動画を全て再生した段階で「ユーザーが最後まで動画を再生すると活動完了となる」仕様にすることが出来ます。
+
+# 導入方法
+
+
 
 ## License ##
 
